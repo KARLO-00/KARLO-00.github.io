@@ -13,8 +13,24 @@
 </head>
 
 <body>
+    <header>
+        <div class="">
+            <a href="">
+                <h1>Personal</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <div class="container border">
-        hellow
+        
     </div>
 </body>
 
