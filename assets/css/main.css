@@ -1,8 +1,25 @@
 body {
-    background-color:  black;
-    color: white;
+    background-color:  black !important;
+    color: white !important;
 }
 
 .header {
-    background-color: #0a2242;
+    /* background-color: #0a2242; */
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+.email-btn {
+    text-decoration: none;
+    color: white
+}
+
+.myPic {
+    border: 4px solid white;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
 }
