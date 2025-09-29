@@ -1,5 +1,5 @@
 body {
-    background-color:  black !important;
+    background-color: #1f1f1f !important;
     color: white !important;
 }
 
@@ -22,4 +22,23 @@ img {
     height: 150px;
     width: 150px;
     object-fit: cover;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btn-info {
+    background-color: #1ABC9C !important;
+    border-color: #1ABC9C !important;
+}
+
+.custom-color {
+    color: #1ABC9C !important;
+}
+
+.custom-bg {
+    background-color: #232323 !important;
+    color: white !important;
+    font-weight: bold
 }
