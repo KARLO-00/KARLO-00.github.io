@@ -48,3 +48,39 @@ img {
     /* matches btn-info color */
     font-weight: bold;
 }
+
+.wave {
+    display: inline-block;
+    transition: transform 0.2s;
+}
+
+.wave:hover {
+    animation: wave-animation 0.6s ease-in-out infinite;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.carousel-item img {
+  height: 500px;       /* adjust height */
+  object-fit: contain !important;   /* crop to fit without distortion */
+}
