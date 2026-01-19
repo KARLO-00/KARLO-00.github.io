@@ -1,0 +1,148 @@
+Color Pallete
+
+#0a0a0a (dark base)
+
+#4a6fa5 (blue accent)
+
+#d1d5db (soft sage)
+
+#ffffff (highlight)
+
+Color Roles (Very Important)
+
+Don’t use colors freely — assign roles.
+
+Recommended usage
+
+Background: #0a0a0a
+
+Primary text: #ffffff
+
+Secondary text: #d1d5bb
+
+Accent / links / highlights: #4a6fa5
+
+⚠️ Never use all four in one component.
+
+2️⃣ Improve Contrast (Subtle but Critical)
+
+Pure white on pure black can feel harsh.
+
+Fix:
+
+Use #ffffff only for:
+
+Name
+
+Headings
+
+Use #d1d5bb for:
+
+Paragraphs
+
+Meta text
+
+Tech stacks
+
+Result: more elegant, less eye strain.
+
+3️⃣ Signature Accent Usage (Your Identity)
+
+Use #4a6fa5 sparingly but consistently.
+
+Best places:
+
+Section title underline
+
+Active nav indicator
+
+Link hover
+
+Small arrows →
+
+Never:
+
+Big backgrounds
+
+Large blocks
+
+Body text
+
+This keeps it premium.
+
+4️⃣ Subtle Layering Using Sage Tint
+
+Use #d1d5bb as a ghost layer, not a surface.
+
+Examples:
+
+Divider lines at opacity: 0.25
+
+Project meta text
+
+Status indicators
+
+Avoid full cards with it — it’s too soft and kills contrast.
+
+PROJECTS
+––––––––
+• Project title (white)
+  Short description (sage)
+  PHP • JS • SQL (sage, small)
+  → View project (blue on hover)
+
+Hover & Focus States (Design Detail)
+
+Make interactions feel intentional.
+
+Example:
+
+Link normal: white
+
+Hover:
+
+underline grows
+
+color shifts to #4a6fa5
+
+arrow slides 4px
+
+Minimal motion, maximum polish.
+
+7️⃣ Navigation Design Using Your Palette
+
+Default nav text: #d1d5bb
+
+Active link:
+
+white text
+
+thin left bar in #4a6fa5
+
+Hover:
+
+text becomes white
+
+underline in blue
+
+8️⃣ One Optional “Standout” Element
+
+Pick one place to slightly break the rules.
+
+Good choices:
+
+Your name partially in #4a6fa5
+
+A thin vertical line in blue beside hero
+
+A single section title in uppercase + blue underline
+
+This becomes memorable without noise.
+
+9️⃣ Design Consistency Rules (Follow These)
+
+Max 2 colors per section
+
+Accent color appears once per viewport
+
+White is earned, not default
