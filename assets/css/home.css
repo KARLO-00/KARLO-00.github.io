@@ -33,7 +33,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
 
-    border-right: 1px solid #d1d5db;
+    /* border: 1px solid #d1d5db; */
 }
 
 header h1 a {
@@ -218,4 +218,32 @@ main {
 
     opacity: 0;
     transition: opacity .2s ease;
+}
+
+
+
+#light-guide {
+  position: fixed;
+  left: 60px;              /* adjust to taste */
+  top: 0;
+  height: 100vh;
+  width: 2px;
+  background: rgba(209, 213, 219, 0.15); /* #d1d5db */
+  z-index: 1;
+}
+
+#light-ball {
+  position: absolute;
+  top: 80px;               /* starting position */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #4a6fa5;
+  box-shadow:
+    0 0 12px rgba(74,111,165,.6),
+    0 0 30px rgba(74,111,165,.4);
+  cursor: pointer;
+  transition: top 0.6s cubic-bezier(.22,.61,.36,1);
 }

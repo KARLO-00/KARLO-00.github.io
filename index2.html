@@ -12,7 +12,8 @@
 </head>
 
 <body>
-    <div id="edge-glow"></div>
+
+    <!-- <div id="edge-glow"></div> -->
     <div class="content">
         <header class="col bd d-flex flex-column">
             <div class="bd h-100">
@@ -26,7 +27,7 @@
 
                 <nav>
                     <ul class="">
-                        <li><a href="#" class="hover-underline active">ABOUT</a></li>
+                        <li><a href="#" class="hover-underline ">ABOUT</a></li>
                         <li><a href="#" class="hover-underline">EXPERIENCE</a></li>
                         <li><a href="#" class="hover-underline">PROJECTS</a></li>
                     </ul>
@@ -39,10 +40,15 @@
                 </ul>
             </div>
         </header>
+
+        <!-- <div id="light-guide">
+            <div id="light-ball"></div>
+        </div> -->
         <main class="">
             <div class="" id="about">
                 digjdjfgdigiduguod
             </div>
+
 
         </main>
     </div>
@@ -69,29 +75,46 @@
             });
         }
 
+        // const glow = document.getElementById('edge-glow');
+        // const range = 200; // how far from edge it activates
 
-        const glow = document.getElementById('edge-glow');
-        const range = 200; // how far from edge it activates
+        // window.addEventListener('mousemove', (e) => {
+        //     const x = e.clientX;
+        //     const y = e.clientY;
+        //     const w = window.innerWidth;
+        //     const h = window.innerHeight;
 
-        window.addEventListener('mousemove', (e) => {
-            const x = e.clientX;
-            const y = e.clientY;
-            const w = window.innerWidth;
-            const h = window.innerHeight;
+        //     const left = Math.max(0, range - x);
+        //     const right = Math.max(0, range - (w - x));
+        //     const top = Math.max(0, range - y);
+        //     const bottom = Math.max(0, range - (h - y));
 
-            const left = Math.max(0, range - x);
-            const right = Math.max(0, range - (w - x));
-            const top = Math.max(0, range - y);
-            const bottom = Math.max(0, range - (h - y));
+        //     const intensity = Math.min(
+        //         (left + right + top + bottom) / (range * 2),
+        //         1
+        //     );
 
-            const intensity = Math.min(
-                (left + right + top + bottom) / (range * 2),
-                1
-            );
+        //     glow.style.opacity = intensity * 0.35;
+        // });
 
-            glow.style.opacity = intensity * 0.35;
-        });
 
+
+        // const ball = document.getElementById('light-ball');
+
+        // let position = 80;   // starting Y
+        // const step = 120;    // distance per click
+        // const max = window.innerHeight - 80;
+
+        // ball.addEventListener('click', () => {
+        //     position += step;
+
+        //     console.log(step)
+        //     if (position > max) {
+        //         position = 80; // reset to top
+        //     }
+
+        //     ball.style.top = position + 'px';
+        // });
 
     </script>
 </body>
